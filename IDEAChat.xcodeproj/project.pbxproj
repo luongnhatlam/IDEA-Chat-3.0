@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB4F8B2D11DAE0FC338FC4C3 /* Pods_IDEAChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEFDE95FBED8E2A54B004966 /* Pods_IDEAChat.framework */; };
 		FF048A6B1D20EB8E00D78617 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF048A6A1D20EB8E00D78617 /* AppDelegate.swift */; };
-		FF048A6D1D20EB8E00D78617 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF048A6C1D20EB8E00D78617 /* ViewController.swift */; };
 		FF048A701D20EB8E00D78617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF048A6E1D20EB8E00D78617 /* Main.storyboard */; };
 		FF048A721D20EB8E00D78617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF048A711D20EB8E00D78617 /* Assets.xcassets */; };
 		FF048A751D20EB8E00D78617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF048A731D20EB8E00D78617 /* LaunchScreen.storyboard */; };
+		FF048A821D211A1400D78617 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF048A811D211A1400D78617 /* SplashViewController.swift */; };
+		FF048A841D211A2300D78617 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF048A831D211A2300D78617 /* LoginViewController.swift */; };
+		FF048A861D211A2F00D78617 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF048A851D211A2F00D78617 /* RegisterViewController.swift */; };
+		FF048A881D211A4300D78617 /* BaseAuthenticateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF048A871D211A4300D78617 /* BaseAuthenticateViewController.swift */; };
+		FF048A8A1D211A6500D78617 /* BaseAuthenticatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF048A891D211A6500D78617 /* BaseAuthenticatedViewController.swift */; };
+		FF048A8C1D211A9200D78617 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF048A8B1D211A9200D78617 /* MessageViewController.swift */; };
+		FF048A8E1D211ABB00D78617 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF048A8D1D211ABB00D78617 /* ContactViewController.swift */; };
+		FF048A901D211AC900D78617 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF048A8F1D211AC900D78617 /* ProfileViewController.swift */; };
+		FF048A931D211BD600D78617 /* SBIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF048A921D211BD600D78617 /* SBIdentifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16900A3C13308015E18F94F4 /* Pods-IDEAChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDEAChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-IDEAChat/Pods-IDEAChat.release.xcconfig"; sourceTree = "<group>"; };
+		C94E8EBBA3DB57C7A3A6F875 /* Pods-IDEAChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDEAChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDEAChat/Pods-IDEAChat.debug.xcconfig"; sourceTree = "<group>"; };
+		FEFDE95FBED8E2A54B004966 /* Pods_IDEAChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDEAChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF048A671D20EB8E00D78617 /* IDEAChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDEAChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF048A6A1D20EB8E00D78617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF048A6C1D20EB8E00D78617 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF048A6F1D20EB8E00D78617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF048A711D20EB8E00D78617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF048A741D20EB8E00D78617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF048A761D20EB8E00D78617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF048A811D211A1400D78617 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		FF048A831D211A2300D78617 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FF048A851D211A2F00D78617 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		FF048A871D211A4300D78617 /* BaseAuthenticateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAuthenticateViewController.swift; sourceTree = "<group>"; };
+		FF048A891D211A6500D78617 /* BaseAuthenticatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAuthenticatedViewController.swift; sourceTree = "<group>"; };
+		FF048A8B1D211A9200D78617 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		FF048A8D1D211ABB00D78617 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		FF048A8F1D211AC900D78617 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FF048A921D211BD600D78617 /* SBIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBIdentifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4F8B2D11DAE0FC338FC4C3 /* Pods_IDEAChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BB4F50C440E272F4166D35B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C94E8EBBA3DB57C7A3A6F875 /* Pods-IDEAChat.debug.xcconfig */,
+				16900A3C13308015E18F94F4 /* Pods-IDEAChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBE791487C6A0D70F740C1DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEFDE95FBED8E2A54B004966 /* Pods_IDEAChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF048A5E1D20EB8E00D78617 = {
 			isa = PBXGroup;
 			children = (
 				FF048A691D20EB8E00D78617 /* IDEAChat */,
 				FF048A681D20EB8E00D78617 /* Products */,
+				3BB4F50C440E272F4166D35B /* Pods */,
+				FBE791487C6A0D70F740C1DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +94,62 @@
 		FF048A691D20EB8E00D78617 /* IDEAChat */ = {
 			isa = PBXGroup;
 			children = (
+				FF048A911D211BBD00D78617 /* Helpers */,
+				FF048A7D1D21191500D78617 /* Models */,
+				FF048A7C1D21190900D78617 /* Controllers */,
 				FF048A6A1D20EB8E00D78617 /* AppDelegate.swift */,
-				FF048A6C1D20EB8E00D78617 /* ViewController.swift */,
 				FF048A6E1D20EB8E00D78617 /* Main.storyboard */,
 				FF048A711D20EB8E00D78617 /* Assets.xcassets */,
 				FF048A731D20EB8E00D78617 /* LaunchScreen.storyboard */,
 				FF048A761D20EB8E00D78617 /* Info.plist */,
 			);
 			path = IDEAChat;
+			sourceTree = "<group>";
+		};
+		FF048A7C1D21190900D78617 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF048A801D2119E100D78617 /* Authenticate */,
+				FF048A7E1D21199A00D78617 /* Authenticated */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FF048A7D1D21191500D78617 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF048A7E1D21199A00D78617 /* Authenticated */ = {
+			isa = PBXGroup;
+			children = (
+				FF048A891D211A6500D78617 /* BaseAuthenticatedViewController.swift */,
+				FF048A8B1D211A9200D78617 /* MessageViewController.swift */,
+				FF048A8D1D211ABB00D78617 /* ContactViewController.swift */,
+				FF048A8F1D211AC900D78617 /* ProfileViewController.swift */,
+			);
+			path = Authenticated;
+			sourceTree = "<group>";
+		};
+		FF048A801D2119E100D78617 /* Authenticate */ = {
+			isa = PBXGroup;
+			children = (
+				FF048A811D211A1400D78617 /* SplashViewController.swift */,
+				FF048A831D211A2300D78617 /* LoginViewController.swift */,
+				FF048A851D211A2F00D78617 /* RegisterViewController.swift */,
+				FF048A871D211A4300D78617 /* BaseAuthenticateViewController.swift */,
+			);
+			path = Authenticate;
+			sourceTree = "<group>";
+		};
+		FF048A911D211BBD00D78617 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FF048A921D211BD600D78617 /* SBIdentifier.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF048A791D20EB8E00D78617 /* Build configuration list for PBXNativeTarget "IDEAChat" */;
 			buildPhases = (
+				80BEA93AA8F729494013E7B1 /* Check Pods Manifest.lock */,
 				FF048A631D20EB8E00D78617 /* Sources */,
 				FF048A641D20EB8E00D78617 /* Frameworks */,
 				FF048A651D20EB8E00D78617 /* Resources */,
+				8B37D49375C9EB82FDEE2816 /* Embed Pods Frameworks */,
+				6D30B365EFFDDED1CB01CDD6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,7 +189,7 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = GBRMF3XZ9K;
 						DevelopmentTeamName = "Long Hoàng";
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -133,13 +224,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D30B365EFFDDED1CB01CDD6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IDEAChat/Pods-IDEAChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80BEA93AA8F729494013E7B1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B37D49375C9EB82FDEE2816 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IDEAChat/Pods-IDEAChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF048A631D20EB8E00D78617 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF048A6D1D20EB8E00D78617 /* ViewController.swift in Sources */,
+				FF048A841D211A2300D78617 /* LoginViewController.swift in Sources */,
+				FF048A8E1D211ABB00D78617 /* ContactViewController.swift in Sources */,
 				FF048A6B1D20EB8E00D78617 /* AppDelegate.swift in Sources */,
+				FF048A931D211BD600D78617 /* SBIdentifier.swift in Sources */,
+				FF048A881D211A4300D78617 /* BaseAuthenticateViewController.swift in Sources */,
+				FF048A8A1D211A6500D78617 /* BaseAuthenticatedViewController.swift in Sources */,
+				FF048A821D211A1400D78617 /* SplashViewController.swift in Sources */,
+				FF048A901D211AC900D78617 /* ProfileViewController.swift in Sources */,
+				FF048A861D211A2F00D78617 /* RegisterViewController.swift in Sources */,
+				FF048A8C1D211A9200D78617 /* MessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +401,11 @@
 		};
 		FF048A7A1D20EB8E00D78617 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94E8EBBA3DB57C7A3A6F875 /* Pods-IDEAChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IDEAChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = academy.ide.IDEAChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -266,9 +415,11 @@
 		};
 		FF048A7B1D20EB8E00D78617 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16900A3C13308015E18F94F4 /* Pods-IDEAChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IDEAChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = academy.ide.IDEAChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +446,7 @@
 				FF048A7B1D20EB8E00D78617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
